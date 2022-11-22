@@ -1,10 +1,41 @@
 // DOM Manipulation
 
+
+const title = document.querySelector("#main-heading");
+
+title.style.color = "blue";
+
+const listItem = document.querySelectorAll(".list-item");
+
+for (let index = 0; index < listItem.length; index++) {
+    listItem[index].style.fontSize = "5rem";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // getElementById()
 
-const title = document.getElementById('main-heading');
+// const title = document.getElementById('main-heading');
 
-console.log(title);
+// console.log(title);
 
 // getElementByClassName()
 
@@ -14,9 +45,9 @@ console.log(title);
 
 // getElementByTagName()
 
-const listItem = document.getElementsByTagName('li');
+// const listItem = document.getElementsByTagName('li');
 
-console.log(listItem);
+// console.log(listItem);
 
 
 
@@ -29,6 +60,6 @@ console.log(listItem);
 
 // querySelectorAll()
 
-const container = document.querySelectorAll('div');
+// const container = document.querySelectorAll('div');
 
-console.log(container);
+// console.log(container);
